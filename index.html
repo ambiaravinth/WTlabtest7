@@ -1,0 +1,57 @@
+<!DOCTYPE html5>
+<head>
+  <style>
+    .dropbtn {
+      background-color: #aa0465;
+      color: white;
+      font-size: 30px;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #b4539c;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: rgb(167, 14, 77);
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .dropdown:hover .dropbtn {
+      background-color: orangered;
+    }
+  </style>
+  <body>
+    
+    <h1 style="text-align: center;padding: 0.5cm;font-size: 1cm;">S3 Software Solutions</h1>
+    <p style="color: blue;font-size: 0.5cm;">As one of the top software providers in the world.</p>
+    <div class="dropdown">
+      <button class="dropbtn">Services</button>
+      <div class="dropdown-content">
+        <a href="#">Web Development</a>
+        <a href="#">WordPress</a>
+        <a href="#">Graphic Design</a>
+        <a href="#">Icon Design</a>
+      </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Works</button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Contact</button>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">About Us</button>
+    </div>
+  </body>
+</head>
